@@ -1,6 +1,3 @@
-import os
-os.system("clear")
-
 # crate list using range function
 zero_to_10 = list(range(11))
 print(zero_to_10)
