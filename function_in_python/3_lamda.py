@@ -1,3 +1,6 @@
+import re
+
+
 def calculator(func, *numbers):
     result: int = 0
 
@@ -16,7 +19,7 @@ def filters(numbers: list, func):
 
 
 if __name__ == '__main__':
-    # total = calculator(lambda number: number * 2, 1, 2, 3, 4, 10)
-    # print(total)
+    total = calculator(lambda number: number * 2, 1, 2, 3, 4, 10)
+    print(total)
     numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
     print(filters(numbers, lambda num: num % 2 == 1))
